@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Server_Connection</class>
+ <widget class="QDialog" name="Server_Connection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>797</width>
+    <height>303</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>451</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 25pt &quot;Comic Sans MS&quot; ;
+color:rgb(24,85,116);</string>
+   </property>
+   <property name="text">
+    <string>Connect to the Server</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="server_ip">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>120</y>
+     <width>431</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 255, 255);
+border-radius:15px;
+font: 16pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ConnectButton">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>200</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QWidget#logbutton{
+border-radius:10px;
+background:rgb(90, 181, 70);
+color:black;
+font-size:24px;
+font-variant:small-caps;
+}
+QWidget#logbutton:hover{
+border-radius:10px;
+background:rgba(139, 190, 99,0.8);
+color:black;
+font-size:24px;
+font-variant:small-caps;
+}</string>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitbutton">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>230</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#exitbutton{
+background: rgb(255, 46, 67);
+border-radius:15px;
+font-size:24px;
+font-variant:small-caps;
+}
+QWidget#exitbutton:hover{
+background: rgb(255, 87, 98);
+border-radius:15px;
+font-size:24px;
+font-variant:small-caps;
+}</string>
+   </property>
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
